@@ -1,0 +1,18 @@
+##################
+#### Configuration
+
+## Comment or uncomment "url" if you wish this script to run or not.
+## Set to the http(s) server running an nginx or apache file listing.
+#url="https://fullurl.com/some/dir%20dir"
+
+## Set to a comma seperated list of allowed extensions
+exts="epub,mobi,cbz,cbr,pdf"
+
+###Extras:
+
+## HTTP authentication, keep commented if not needed
+#http_username="user"
+#http_password="pass"
+
+### Custom CA certificate. If using SSL supply the certificate in ".wget-settings/cert.crt" on your kobo root while mounted.
+### The format is PEM 

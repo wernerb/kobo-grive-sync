@@ -2,10 +2,10 @@
 
 # This config script is used with sourcing so don't call exit
 
-# grive_sync_home is also defined in /etc/udev/rules.d/99-grive-sync.rules and rcS_payload.txt
+# wget_sync_home is also defined in /etc/udev/rules.d/99-wget-sync.rules and rcS_payload.txt
 
-grive_sync_settings=/mnt/onboard/.grive-sync
-grive_sync_home=/usr/local/grive-sync
-grive_sync_libfolder=/mnt/onboard/.grive-sync/sd
+wget_sync_settings=/mnt/onboard/.wget-sync
+wget_sync_home=/usr/local/wget-sync
+wget_sync_libfolder=/mnt/onboard/.wget-sync/sd
 
-export grive_sync_settings grive_sync_home grive_sync_libfolder
+export wget_sync_settings wget_sync_home wget_sync_libfolder

@@ -9,6 +9,6 @@ if [ "$ACTION" == "remove" ]; then
   {
     date
     echo "$0: USB removed. Checking virtual SD."
-    $grive_sync_home/virtual_sd.sh
-  } &> $grive_sync_settings/last-usb-remove.txt
+    $wget_sync_home/virtual_sd.sh
+  } &> $wget_sync_settings/last-usb-remove.txt
 fi

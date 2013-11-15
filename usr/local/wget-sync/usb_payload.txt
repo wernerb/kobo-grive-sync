@@ -1,1 +1,1 @@
-/usr/local/grive-sync/udev_usb_program.sh
+/usr/local/wget-sync/udev_usb_program.sh

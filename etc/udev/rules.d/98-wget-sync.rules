@@ -1,4 +1,5 @@
-KERNEL=="eth*", RUN+="/usr/local/grive-sync/udev_program.sh" 
-KERNEL=="wlan*", RUN+="/usr/local/grive-sync/udev_program.sh" 
-KERNEL=="usb_host", RUN+="/usr/local/grive-sync/udev_usb_program.sh"
-KERNEL=="usb_plug", RUN+="/usr/local/grive-sync/udev_usb_program.sh"
+KERNEL=="eth*", RUN+="/usr/local/wget-sync/udev_program.sh" 
+KERNEL=="wlan*", RUN+="/usr/local/wget-sync/udev_program.sh" 
+KERNEL=="usb_host", RUN+="/usr/local/wget-sync/udev_usb_program.sh"
+KERNEL=="usb_plug", RUN+="/usr/local/wget-sync/udev_usb_program.sh"
+
