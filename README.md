@@ -9,7 +9,7 @@ So, instead of using grive, this uses wget instead which is pre-compiled for arm
 Purpose
 ---------------
 When you have multiple kobo's and do not wish to keep connecting your kobo to your PC then this is for you. 
-By serving a directory with _nginx_ or _apache2_ with a file listing, with authentication, you can serve your epubs in your local network to be synced to all your kobo devices.
+By serving a directory with _nginx_ or _apache2_ with a file listing (with authentication), you can serve files in your local network to be synced to all your kobo devices.
 The sync script mirrors and spiders the various indexes of your web-url and only downloads the file extensions specified by you in the `.wget-sync/config.sh`.
 
 After installing and configuring, you activate wifi (a quick way to activate wifi is to press `Sync`) and it will fetch new files from your webserver.
