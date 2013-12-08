@@ -58,3 +58,7 @@ A: No.
 Disclaimer
 ---------------
 My bash scripting skills are not that good, so backup everything and test this thuroughly if you wan to use it. And if you decide to use it, know that I will not be responsible for epubs or books lost.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wernerb/kobo-wget-sync/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
