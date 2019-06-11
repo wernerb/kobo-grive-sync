@@ -61,7 +61,7 @@ echo "$wgetoutput"
 #catch the rejections to subtract from total downloads.
 urllength=${#url}
 urllength=$((urllength+1))
-log1loc=$(echo "$wgetoutput" | grep -Eio https://.+ | cut -c $urllength- | grep -v '.*/$')
+log1loc=$(echo "$wgetoutput" | grep -Eio https?://.+ | cut -c $urllength- | grep -v '.*/$')
 fixurls ()
 {
     echo "$log1loc" | while read line
